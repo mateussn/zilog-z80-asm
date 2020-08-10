@@ -4,11 +4,15 @@
 
 org &8000
 
-main: 
-	ld (#7000), #0 ; x = 0
-	ld (&7001), #1 ; y = 1
-	ld b, (&7000)  
-	ld a, (&7000)  ; acumulator = 0
-	add (&7001)    ; acumulator = 0+1
-	ld (&7002), a  ; z = acumulator
+Main:
+	; loading values 0, 1 to inside 0x7000, 0x7001 memory locations 
+	ld a, 0
+	ld (&7000), a ; 0x7000 = 0; x = 0
+	ld a, 1 
+	ld (&7001), a ; 0x7001 = 1; y = 1 
+	
+	; z = x + y
+	
+
+	
 	  		
