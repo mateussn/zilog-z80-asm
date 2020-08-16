@@ -1,4 +1,4 @@
-; This program verifies the bigger number and save on adress 0x7000
+; This program verifies the bigger number and save on address 0x7000
 ; By Mateus Novaes
 
 org &8000 ; static start location 
