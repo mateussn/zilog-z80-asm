@@ -1,3 +1,6 @@
+; z80_first.asm
+; just for fun :D
+
 org &8000	; starts from this static adress
 ld a, 4		; loads 4 to register 'a'
 ld b, 6		; loads 6 to register 'b'
