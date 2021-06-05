@@ -25,3 +25,5 @@ org &8000		; Static start location in memory
 	next2:		; Another label
 	ld (&7000), a	; Loads acumulator to a specified adress 
 	ret		; Returns to main routine
+		
+ 
